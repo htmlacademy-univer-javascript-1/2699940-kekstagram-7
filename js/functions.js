@@ -43,3 +43,4 @@ function isMeetingWithinWorkday(startWork, endWork, startMeeting, meetingDuratio
 
   return meetingStart >= workStart && meetingEnd <= workEnd;
 }
+window.isMeetingWithinWorkday = isMeetingWithinWorkday;
